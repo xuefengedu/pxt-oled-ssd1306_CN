@@ -54,4 +54,17 @@ namespace OLED {
         console.log("display: " + number);
         return;
     }
+
+    /**
+     * 画圆
+     * @param height height (in pixels)
+     * @param width width (in pixels)
+     */
+    //% blockId=oled_drawCircle
+    //% block="draw circle with x %x|y %y|r %r"
+    //% icon="\uf1ec" 
+    //% shim=OLED::drawCircle
+    export function drawCircle(x: number = 6, y: number = 6, r: number = 3): void {
+        return;
+    }
 }
