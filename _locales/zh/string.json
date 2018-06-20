@@ -1,0 +1,7 @@
+{
+    "OLED|block": "OLED液晶",
+    "OLED.init|block": "OLED初始化为高度 %height|宽度 %width",
+    "OLED.clear|block": "清除OLED屏幕",
+    "OLED.showString|block": "OLED显示|字符串 %text"",
+    "OLED.showNumber|block": "OLED显示|数字 %number"
+}

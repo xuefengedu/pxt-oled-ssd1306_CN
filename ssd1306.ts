@@ -1,9 +1,9 @@
 //% icon="\uf26c"
-//% color="255" weight="90"
+//% color="255" weight="90" block="OLED液晶"
 namespace OLED {
 
     /**
-     * initialises the i2c OLED display
+     * 初始化i2c OLED显示器
      * @param height height (in pixels)
      * @param width width (in pixels)
      */
@@ -16,7 +16,7 @@ namespace OLED {
     }
 
     /**
-     * clears the screen.
+     * 清除OLED屏幕
      */
     //% blockId=oled_clear_screen
     //% block="clear OLED display"
@@ -27,7 +27,7 @@ namespace OLED {
     }
 
     /**
-     * prints a string on the OLED display
+     * 在OLED显示器上打印字符串
      * @param text text to display
      */
     //% weight=87 blockGap=8
@@ -42,7 +42,7 @@ namespace OLED {
     }
 
     /**
-     * prints a number on the OLED display
+     * 在OLED显示器上打印数字
      * @param number number to display
      */
     //% weight=96
