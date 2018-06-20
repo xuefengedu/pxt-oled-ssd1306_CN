@@ -20,6 +20,22 @@ Forked from https://github.com/Tinkertanker/pxt-oled-ssd1306
 
 SSD1306 makecode picture:
 
+![Alt text](oled.PNG?raw=true "SSD1306 makecode picture")
+
+[sample hex download](microbit-oled-CN-test.hex)
+
+![Alt text](1.jpg?raw=true "SSD1306 test picture")
+
+![Alt text](2.jpg?raw=true "SSD1306 test picture")
+
+![Alt text](3.jpg?raw=true "SSD1306 test picture")
+
+![Alt text](4.jpg?raw=true "SSD1306 test picture")
+
+![Alt text](5.jpg?raw=true "SSD1306 test picture")
+
+![Alt text](6.jpg?raw=true "SSD1306 test picture")
+
 ![Alt text](1.PNG?raw=true "lcd1602 test picture")
 
 ![Alt text](2.PNG?raw=true "lcd1602 test picture")
