@@ -1,3 +1,11 @@
+Forked from https://github.com/Tinkertanker/pxt-oled-ssd1306
+
+# SSD1306 OLED液晶micro:bit pxt扩展包
+
+1. Translate into Chinese Simplified
+2. Add more functions. (TODO)
+
+
 # SSD1306 OLED MakeCode Package [![Build Status](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306.svg?branch=master)](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306)
 
 This is the MakeCode Package for SSD1306 OLED controller, based on the Adafruit Arduino library available [here](https://github.com/adafruit/Adafruit_SSD1306).
