@@ -17,7 +17,7 @@
         "Adafruit_GFX_Config.h",
         "glcdfont.h",
         "enums.d.ts",
-		"_locales/zh/string.json",
+		"_locales/zh/string.json"
     ],
     "testFiles": [
         "tests.ts"
