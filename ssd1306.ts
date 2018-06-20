@@ -11,7 +11,7 @@ namespace OLED {
     //% block="initialize OLED with height %height|width %width"
     //% icon="\uf1ec" 
     //% shim=OLED::init_terminal
-    export function init(height: number=64, width: number=128): void {
+    export function init(height: number = 64, width: number = 128): void {
         return;
     }
 
