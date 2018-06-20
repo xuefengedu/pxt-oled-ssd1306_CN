@@ -18,7 +18,7 @@ Forked from https://github.com/Tinkertanker/pxt-oled-ssd1306
 
 ## Screen shots
 
-lcd1602 makecode picture:
+SSD1306 makecode picture:
 
 ![Alt text](1.PNG?raw=true "lcd1602 test picture")
 
