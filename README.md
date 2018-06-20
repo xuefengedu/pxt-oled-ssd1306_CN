@@ -20,11 +20,11 @@ Forked from https://github.com/Tinkertanker/pxt-oled-ssd1306
 
 lcd1602 makecode picture:
 
-![Alt text](1.jpg?raw=true "lcd1602 test picture")
+![Alt text](1.PNG?raw=true "lcd1602 test picture")
 
-![Alt text](2.jpg?raw=true "lcd1602 test picture")
+![Alt text](2.PNG?raw=true "lcd1602 test picture")
 
-![Alt text](3.jpg?raw=true "lcd1602 test picture")
+![Alt text](3.PNG?raw=true "lcd1602 test picture")
 
 
 # SSD1306 OLED MakeCode Package [![Build Status](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306.svg?branch=master)](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306)
