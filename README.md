@@ -16,6 +16,17 @@ Forked from https://github.com/Tinkertanker/pxt-oled-ssd1306
     "OLED.fillTriangle|block": "填充三角形 x0 %x0|y0 %y0|x1 %x1|y1 %y1|x2 %x2|y2 %y2"
 ```
 
+## Screen shots
+
+lcd1602 makecode picture:
+
+![Alt text](1.jpg?raw=true "lcd1602 test picture")
+
+![Alt text](2.jpg?raw=true "lcd1602 test picture")
+
+![Alt text](3.jpg?raw=true "lcd1602 test picture")
+
+
 # SSD1306 OLED MakeCode Package [![Build Status](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306.svg?branch=master)](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306)
 
 This is the MakeCode Package for SSD1306 OLED controller, based on the Adafruit Arduino library available [here](https://github.com/adafruit/Adafruit_SSD1306).
