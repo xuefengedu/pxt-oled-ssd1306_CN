@@ -57,8 +57,9 @@ namespace OLED {
 
     /**
      * 画圆
-     * @param height height (in pixels)
-     * @param width width (in pixels)
+     * @param x x (in pixels)
+     * @param y y (in pixels)
+     * @param r r (in pixels)
      */
     //% blockId=oled_drawCircle
     //% block="draw circle with x %x|y %y|r %r"
