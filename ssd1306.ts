@@ -7,6 +7,7 @@ namespace OLED {
      * @param height height (in pixels)
      * @param width width (in pixels)
      */
+    //% weight=99
     //% blockId=oled_init_terminal
     //% block="initialize OLED with height %height|width %width"
     //% icon="\uf1ec" 
@@ -18,6 +19,7 @@ namespace OLED {
     /**
      * 清除OLED屏幕
      */
+    //% weight=98
     //% blockId=oled_clear_screen
     //% block="clear OLED display"
     //% icon="\uf1ec" 
@@ -30,7 +32,7 @@ namespace OLED {
      * 在OLED显示器上打印字符串
      * @param text text to display
      */
-    //% weight=87 blockGap=8
+    //% weight=97 blockGap=8
     //% block="show|string %text" 
     //% async
     //% blockId=oled_print_string
@@ -61,6 +63,7 @@ namespace OLED {
      * @param y y (in pixels)
      * @param r r (in pixels)
      */
+    //% weight=95
     //% blockId=oled_drawCircle
     //% block="draw circle with x %x|y %y|r %r"
     //% icon="\uf1ec" 
@@ -75,6 +78,7 @@ namespace OLED {
      * @param y y (in pixels)
      * @param r r (in pixels)
      */
+    //% weight=94
     //% blockId=oled_fillCircle
     //% block="fill circle with x %x|y %y|r %r"
     //% icon="\uf1ec" 
@@ -90,6 +94,7 @@ namespace OLED {
      * @param x1 x1 (in pixels)
      * @param y1 y1 (in pixels)
      */
+    //% weight=93
     //% blockId=oled_drawLine
     //% block="draw line with x0 %x0|y0 %y0|x1 %x1|y1 %y1"
     //% icon="\uf1ec" 
@@ -105,6 +110,7 @@ namespace OLED {
      * @param w w (in pixels)
      * @param h h (in pixels)
      */
+    //% weight=92
     //% blockId=oled_drawRect
     //% block="draw rect with x %x|y %y|w %w|h %h"
     //% icon="\uf1ec" 
@@ -120,6 +126,7 @@ namespace OLED {
      * @param w w (in pixels)
      * @param h h (in pixels)
      */
+    //% weight=91
     //% blockId=oled_fillRect
     //% block="fill rect with x %x|y %y|w %w|h %h"
     //% icon="\uf1ec" 
@@ -136,6 +143,7 @@ namespace OLED {
      * @param h h (in pixels)
      * @param r r (in pixels)
      */
+    //% weight=90
     //% blockId=oled_drawRoundRect
     //% block="draw round rect with x %x|y %y|w %w|h %h|r %r"
     //% icon="\uf1ec" 
@@ -152,6 +160,7 @@ namespace OLED {
      * @param h h (in pixels)
      * @param r r (in pixels)
      */
+    //% weight=89
     //% blockId=oled_fillRoundRect
     //% block="fill round rect with x %x|y %y|w %w|h %h|r %r"
     //% icon="\uf1ec" 
@@ -169,6 +178,7 @@ namespace OLED {
      * @param x2 x2 (in pixels)
      * @param y2 y2 (in pixels)
      */
+    //% weight=88
     //% blockId=oled_drawTriangle
     //% block="draw triangle with x0 %x0|y0 %y0|x1 %x1|y1 %y1|x2 %x2|y2 %y2"
     //% icon="\uf1ec" 
@@ -186,6 +196,7 @@ namespace OLED {
      * @param x2 x2 (in pixels)
      * @param y2 y2 (in pixels)
      */
+    //% weight=87
     //% blockId=oled_fillTriangle
     //% block="fill triangle with x0 %x0|y0 %y0|x1 %x1|y1 %y1|x2 %x2|y2 %y2"
     //% icon="\uf1ec" 
