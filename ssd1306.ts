@@ -68,4 +68,129 @@ namespace OLED {
     export function drawCircle(x: number = 6, y: number = 6, r: number = 3): void {
         return;
     }
+
+    /**
+     * 填充圆
+     * @param x x (in pixels)
+     * @param y y (in pixels)
+     * @param r r (in pixels)
+     */
+    //% blockId=oled_fillCircle
+    //% block="fill circle with x %x|y %y|r %r"
+    //% icon="\uf1ec" 
+    //% shim=OLED::fillCircle
+    export function fillCircle(x: number = 6, y: number = 6, r: number = 3): void {
+        return;
+    }
+
+    /**
+     * 画线
+     * @param x0 x0 (in pixels)
+     * @param y0 y0 (in pixels)
+     * @param x1 x1 (in pixels)
+     * @param y1 y1 (in pixels)
+     */
+    //% blockId=oled_drawLine
+    //% block="draw line with x0 %x0|y0 %y0|x1 %x1|y1 %y1"
+    //% icon="\uf1ec" 
+    //% shim=OLED::drawLine
+    export function drawLine(x0: number = 1, y0: number = 1, x1: number = 3, y1: number = 3): void {
+        return;
+    }
+
+    /**
+     * 画矩形
+     * @param x x (in pixels)
+     * @param y y (in pixels)
+     * @param w w (in pixels)
+     * @param h h (in pixels)
+     */
+    //% blockId=oled_drawRect
+    //% block="draw rect with x %x|y %y|w %w|h %h"
+    //% icon="\uf1ec" 
+    //% shim=OLED::drawRect
+    export function drawRect(x: number = 1, y: number = 1, w: number = 3, h: number = 3): void {
+        return;
+    }
+
+    /**
+     * 填充矩形
+     * @param x x (in pixels)
+     * @param y y (in pixels)
+     * @param w w (in pixels)
+     * @param h h (in pixels)
+     */
+    //% blockId=oled_fillRect
+    //% block="fill rect with x %x|y %y|w %w|h %h"
+    //% icon="\uf1ec" 
+    //% shim=OLED::fillRect
+    export function fillRect(x: number = 1, y: number = 1, w: number = 3, h: number = 3): void {
+        return;
+    }
+
+    /**
+     * 画带圆角的矩形
+     * @param x x (in pixels)
+     * @param y y (in pixels)
+     * @param w w (in pixels)
+     * @param h h (in pixels)
+     * @param r r (in pixels)
+     */
+    //% blockId=oled_drawRoundRect
+    //% block="draw round rect with x %x|y %y|w %w|h %h|r %r"
+    //% icon="\uf1ec" 
+    //% shim=OLED::drawRoundRect
+    export function drawRoundRect(x: number = 1, y: number = 1, w: number = 3, h: number = 3, r: number = 2): void {
+        return;
+    }
+
+    /**
+     * 填充带圆角的矩形
+     * @param x x (in pixels)
+     * @param y y (in pixels)
+     * @param w w (in pixels)
+     * @param h h (in pixels)
+     * @param r r (in pixels)
+     */
+    //% blockId=oled_fillRoundRect
+    //% block="fill round rect with x %x|y %y|w %w|h %h|r %r"
+    //% icon="\uf1ec" 
+    //% shim=OLED::fillRoundRect
+    export function fillRoundRect(x: number = 1, y: number = 1, w: number = 3, h: number = 3, r: number = 2): void {
+        return;
+    }
+
+    /**
+     * 画三角形
+     * @param x0 x0 (in pixels)
+     * @param y0 y0 (in pixels)
+     * @param x1 x1 (in pixels)
+     * @param y1 y1 (in pixels)
+     * @param x2 x2 (in pixels)
+     * @param y2 y2 (in pixels)
+     */
+    //% blockId=oled_drawTriangle
+    //% block="draw triangle with x0 %x0|y0 %y0|x1 %x1|y1 %y1|x2 %x2|y2 %y2"
+    //% icon="\uf1ec" 
+    //% shim=OLED::drawTriangle
+    export function drawTriangle(x0: number = 1, y0: number = 1, x1: number = 3, y1: number = 3, x2: number = 1, y2: number = 3): void {
+        return;
+    }
+
+    /**
+     * 填充三角形
+     * @param x0 x0 (in pixels)
+     * @param y0 y0 (in pixels)
+     * @param x1 x1 (in pixels)
+     * @param y1 y1 (in pixels)
+     * @param x2 x2 (in pixels)
+     * @param y2 y2 (in pixels)
+     */
+    //% blockId=oled_fillTriangle
+    //% block="fill triangle with x0 %x0|y0 %y0|x1 %x1|y1 %y1|x2 %x2|y2 %y2"
+    //% icon="\uf1ec" 
+    //% shim=OLED::fillTriangle
+    export function fillTriangle(x0: number = 1, y0: number = 1, x1: number = 3, y1: number = 3, x2: number = 1, y2: number = 3): void {
+        return;
+    }
 }

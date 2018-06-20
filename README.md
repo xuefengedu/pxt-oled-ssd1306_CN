@@ -3,8 +3,18 @@ Forked from https://github.com/Tinkertanker/pxt-oled-ssd1306
 # SSD1306 OLED液晶micro:bit pxt扩展包
 
 1. Translate into Chinese Simplified
-2. Add more functions. (TODO)
-
+2. Add more functions:
+```
+    "OLED.drawCircle|block": "画圆 x %x|y %y|r %r",
+    "OLED.fillCircle|block": "填充圆 x %x|y %y|r %r",
+    "OLED.drawLine|block": "画线 x0 %x0|y0 %y0|x1 %x1|y1 %y1",
+    "OLED.drawRect|block": "画矩形 x %x|y %y|w %w|h %h",
+    "OLED.fillRect|block": "填充矩形 x %x|y %y|w %w|h %h",
+    "OLED.drawRoundRect|block": "画带圆角的矩形 x %x|y %y|w %w|h %h|r %r",
+    "OLED.fillRoundRect|block": "填充带圆角的矩形 x %x|y %y|w %w|h %h|r %r",
+    "OLED.drawTriangle|block": "画三角形 x0 %x0|y0 %y0|x1 %x1|y1 %y1|x2 %x2|y2 %y2",
+    "OLED.fillTriangle|block": "填充三角形 x0 %x0|y0 %y0|x1 %x1|y1 %y1|x2 %x2|y2 %y2"
+```
 
 # SSD1306 OLED MakeCode Package [![Build Status](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306.svg?branch=master)](https://travis-ci.org/Tinkertanker/pxt-oled-ssd1306)
 
