@@ -22,7 +22,9 @@ SSD1306 makecode picture:
 
 ![Alt text](oled.PNG?raw=true "SSD1306 makecode picture")
 
-[sample hex download](microbit-oled-CN-test.hex)
+[sample 1 hex download](microbit-oled-CN-test.hex)
+
+[sample 2 hex download](microbit-oled-CN-test2.hex) 比sample 1多加了开始时设置画图显示为关闭，结束时再一次性显示画图的结果。而不是像第一次那样每次画图都显示，第一次每画一笔都发送数据去显示一次，那样效率有点低。
 
 ![Alt text](1.jpg?raw=true "SSD1306 test picture")
 
