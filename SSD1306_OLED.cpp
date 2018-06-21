@@ -17,7 +17,7 @@ namespace OLED {
 	}
 	
 	//%
-	void init_terminal(int height, int width){
+	void init_terminal(int height = 64, int width = 128){
 		if (oled != NULL) delete oled;
 		oled = new Adafruit_SSD1306_I2c(i2c, SSD1306_ADDRESS, height, width);
 		oled->clearDisplay();
@@ -32,9 +32,18 @@ namespace OLED {
     }
     
     //%
-    void showNumber (int number) {
+    void showNumber(int number) {
 		oled->printf("%d\n", number);
 		oled->display();
+	}
+    
+    //%
+    void onOffDisplay(bool onOff = true) {
+		oled->isDisplay = onOff;
+		if(onOff)
+		{
+		    oled->display();
+		}
 	}
 
 	//%
@@ -46,55 +55,82 @@ namespace OLED {
 	//%
 	void drawCircle(int x, int y, int r){
 		oled->drawCircle(x, y, r, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
 	}
 
 	//%
 	void fillCircle(int x, int y, int r){
 		oled->fillCircle(x, y, r, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
 	}
 
 	//%
 	void drawLine(int x0, int y0, int x1, int y1){
 		oled->drawLine(x0, y0, x1, y1, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
 	}
 
 	//%
 	void fillRect(int x, int y, int w, int h){
 		oled->fillRect(x, y, w, h, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
 	}
 
 	//%
     void drawRect(int x, int y, int w, int h){
 		oled->drawRect(x, y, w, h, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
     }
 
     //%
 	void fillRoundRect(int x, int y, int w, int h, int r){
 		oled->fillRoundRect(x, y, w, h, r, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
 	}
 
 	//%
     void drawRoundRect(int x, int y, int w, int h, int r){
 		oled->drawRoundRect(x, y, w, h, r, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
     }
 
     //%
     void drawTriangle(int x0, int y0, int x1, int y1, int x2, int y2){
 		oled->drawTriangle(x0, y0, x1, y1, x2, y2, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
     }
 
     //%
     void fillTriangle(int x0, int y0, int x1, int y1, int x2, int y2){
 		oled->fillTriangle(x0, y0, x1, y1, x2, y2, WHITE);
-		oled->display();
+		if(oled->isDisplay)
+		{
+			oled->display();
+		}
     }
 
     #define printf(...) uBit.serial.printf(__VA_ARGS__)

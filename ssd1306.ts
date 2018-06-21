@@ -7,7 +7,7 @@ namespace OLED {
      * @param height height (in pixels)
      * @param width width (in pixels)
      */
-    //% weight=99
+    //% weight=100
     //% blockId=oled_init_terminal
     //% block="initialize OLED with height %height|width %width"
     //% icon="\uf1ec" 
@@ -19,7 +19,7 @@ namespace OLED {
     /**
      * 清除OLED屏幕
      */
-    //% weight=98
+    //% weight=99
     //% blockId=oled_clear_screen
     //% block="clear OLED display"
     //% icon="\uf1ec" 
@@ -32,7 +32,7 @@ namespace OLED {
      * 在OLED显示器上打印字符串
      * @param text text to display
      */
-    //% weight=97 blockGap=8
+    //% weight=98 blockGap=8
     //% block="show|string %text" 
     //% async
     //% blockId=oled_print_string
@@ -47,13 +47,28 @@ namespace OLED {
      * 在OLED显示器上打印数字
      * @param number number to display
      */
-    //% weight=96
+    //% weight=97
     //% blockId=oled_print_number
     //% block="show|number %number" blockGap=8
     //% async 
     //% shim=OLED::showNumber
     export function showNumber(number: number): void {
         console.log("display: " + number);
+        return;
+    }
+
+
+    /**
+     * 在OLED显示器上启用画图显示或者关闭画图显示
+     * @param onOffDisplay onOffDisplay to on or off display
+     */
+    //% weight=96
+    //% blockId=oled_onOffDisplay
+    //% block="show|onOff %onOff" blockGap=8
+    //% async 
+    //% shim=OLED::onOffDisplay
+    export function onOffDisplay(onOff: boolean = true): void {
+        console.log("display: " + onOff );
         return;
     }
 

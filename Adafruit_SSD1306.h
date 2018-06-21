@@ -89,6 +89,8 @@ class Adafruit_SSD1306_I2c : public Adafruit_SSD1306
 {
 public:
 	#define SSD_I2C_ADDRESS     0x78
+	bool isDisplay;
+
 	/** Create a SSD1306 I2C transport display driver instance with the specified I2C address, as well as the display dimensions
 	 *
 	 * Required parameters
@@ -103,6 +105,7 @@ public:
 	    : Adafruit_SSD1306(rawHeight, rawWidth)
 	    , mi2c(i2c)
 	    , mi2cAddress(i2cAddress)
+		, isDisplay(true)
 	    {
 		    begin();
 		    //splash();
