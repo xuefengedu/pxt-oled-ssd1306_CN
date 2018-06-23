@@ -30,9 +30,11 @@ SSD1306 makecode picture:
 
 ![Alt text](oled.PNG?raw=true "SSD1306 makecode picture")
 
-[sample 1 hex download](microbit-oled-CN-test.hex)
+[sample 1 hex download](microbit-oled-CN-test.hex) 点击链接后，页面上有3个按钮：“Raw”按钮，“Blame”按钮，“History”按钮，在“Raw”按钮上右键，另存为，进行下载。
 
 [sample 2 hex download](microbit-oled-CN-test2.hex) 比sample 1多加了开始时设置画图显示为关闭，结束时再一次性显示画图的结果。而不是像第一次那样每次画图都显示，第一次每画一笔都发送数据去显示一次，那样效率有点低。
+
+点击上面的链接后，页面上有3个按钮：“Raw”按钮，“Blame”按钮，“History”按钮，在“Raw”按钮上右键，另存为，进行下载。
 
 ![Alt text](1.jpg?raw=true "SSD1306 test picture")
 
